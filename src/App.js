@@ -21,6 +21,9 @@ function App() {
   return (
     <Router>
       <div className="App">
+        <Route>
+          <Home/>
+        </Route>
         <Switch>
           <Route>
            <Home/>
