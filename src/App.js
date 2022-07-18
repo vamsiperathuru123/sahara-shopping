@@ -21,9 +21,7 @@ function App() {
   return (
     <Router>
       <div className="App">
-        <Route>
-          <Home/>
-        </Route>
+        
         <Switch>
           <Route>
            <Home/>
@@ -65,7 +63,9 @@ function App() {
          <Route path="/Header">
            <Header/>
           </Route>
-         
+         <Route>
+          <Home/>
+         </Route>
           
           
         </Switch>  
